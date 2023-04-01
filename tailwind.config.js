@@ -7,6 +7,9 @@ module.exports = {
         Text: {
           title: "#E53A68",
         },
+        button: {
+          primary: "#E53A68",
+        },
       },
     },
     plugins: [],

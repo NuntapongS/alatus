@@ -9,6 +9,7 @@ module.exports = {
         },
         button: {
           primary: "#E53A68",
+          boarder: "#F39F02",
         },
       },
     },

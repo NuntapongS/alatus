@@ -17,7 +17,7 @@ const HomePage = () => {
       </div>
       <div className="flex justify-center w-full">
         <button
-          className="flex justify-center items-center bg-white text-Text-title w-[184px] h-12 rounded-full border-4 border-button-primary"
+          className="flex justify-center items-center bg-white text-Text-title w-[184px] h-12 rounded-full border-4 border-button-boarder"
           data-testid="about-me-button"
           onClick={() => navigate("/about-me")}
         >

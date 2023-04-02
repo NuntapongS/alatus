@@ -13,7 +13,7 @@ const AboutMe = () => {
         </button>
         <button
           className="flex justify-center items-center bg-white text-Text-title w-[184px] h-12 rounded-full border-4 border-button-boarder"
-          onClick={() => navigate("/home")}
+          onClick={() => navigate("/portfolio")}
         >
           Portfolio
         </button>

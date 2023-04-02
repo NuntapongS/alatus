@@ -12,6 +12,10 @@ const route = createBrowserRouter([
     path: "/about-me",
     element: <AboutMe />,
   },
+  {
+    // path: "/portfolio",
+    // element: <Portfolio />,
+  },
 ]);
 
 function App() {

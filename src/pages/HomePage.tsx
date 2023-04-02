@@ -5,8 +5,8 @@ const HomePage = () => {
   return (
     <div className="h-screen w-full bg-[url('https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg')] bg-cover">
       <div className="flex flex-col ">
-        <div className="flex flex-col justify-center items-center text-3xl text-Text-title tracking-[6px]  pt-[230px] pb-10">
-          <div className="font-semibold">
+        <div className="flex flex-col justify-center items-center  tracking-[6px]  pt-[230px] pb-10">
+          <div className="font-semibold text-3xl text-Text-title">
             Nuntapong (Pat) Siripanyawong
             <span className="blink font-bold">|</span>
           </div>

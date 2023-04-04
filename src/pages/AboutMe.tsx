@@ -12,7 +12,7 @@ const AboutMe = () => {
           Back
         </button>
         <button
-          className="flex justify-center items-center bg-white text-Text-title w-[184px] h-12 rounded-full border-4 border-button-boarder"
+          className="flex justify-center items-center bg-white text-text-next w-[184px] h-12 rounded-full border-4 border-boarder-next"
           onClick={() => navigate("/portfolio")}
         >
           Portfolio

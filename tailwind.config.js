@@ -4,12 +4,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Text: {
+        text: {
           title: "#E53A68",
+          back: "#",
+          next: "#7C2282",
         },
         button: {
           primary: "#E53A68",
-          boarder: "#F39F02",
+        },
+        boarder: {
+          primary: "#E53A68",
+          back: "",
+          next: "#7C2282",
         },
       },
     },

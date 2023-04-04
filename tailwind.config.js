@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         text: {
           title: "#E53A68",
-          back: "#",
+          back: "#198CC0",
           next: "#7C2282",
         },
         button: {
@@ -14,7 +14,7 @@ module.exports = {
         },
         boarder: {
           primary: "#E53A68",
-          back: "",
+          back: "#198CC0",
           next: "#7C2282",
         },
       },

@@ -6,16 +6,16 @@ module.exports = {
       colors: {
         text: {
           title: "#E53A68",
-          back: "#198CC0",
-          next: "#7C2282",
+          back: "#BE6FCE",
+          next: "#CD4548",
         },
         button: {
           primary: "#E53A68",
         },
         boarder: {
           primary: "#E53A68",
-          back: "#198CC0",
-          next: "#7C2282",
+          back: "#BE6FCE",
+          next: "#CD4548",
         },
       },
     },

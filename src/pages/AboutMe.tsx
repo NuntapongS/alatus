@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import profile from "../images/S__10960911.jpg";
 
 const AboutMe = () => {
   const navigate = useNavigate();
@@ -19,13 +20,17 @@ const AboutMe = () => {
         </button>
       </div>
       <div className="flex justify-between items-center min-h-[600px] p-32 text-white">
-        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-72 ">
-          <div className="flex p-5">
-            <img src="" className="flex border rounded-full h-52 w-52" alt="" />
+        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96 ">
+          <div className="flex w-full justify-center items-center p-5 ">
+            <img
+              src={profile}
+              className="flex border rounded-full h-64 w-64 object-cover"
+              alt=""
+            />
           </div>
-          <div className="w-full p-5">test</div>
+          <div className="flex w-full p-5">test</div>
         </div>
-        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-72">
+        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96">
           Test
         </div>
       </div>

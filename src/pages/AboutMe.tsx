@@ -21,17 +21,17 @@ const AboutMe = () => {
       </div>
       <div className="flex justify-between items-center gap-5 min-h-[600px] text-white">
         <div className="flex p-3 border-4 rounded-lg border-white w-full h-96 ">
-          <div className="flex  justify-center items-center p-5">
+          <div className="flex w-full  justify-center items-center p-5">
             <img
               src={profile}
-              className="flex border rounded-full h-64 w-64 object-cover"
+              className="flex border rounded-full h-full w-full object-cover"
               alt=""
             />
           </div>
-          <div>Test</div>
+          <div className="w-full">Test</div>
         </div>
         <div className="flex p-3 border-4 rounded-lg border-white w-full h-96">
-          Test
+          <div className="w-full">Test</div>
         </div>
       </div>
     </div>

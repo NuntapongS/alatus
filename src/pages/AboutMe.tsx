@@ -19,8 +19,8 @@ const AboutMe = () => {
           Portfolio
         </button>
       </div>
-      <div className="flex justify-between items-center min-h-[600px] text-white">
-        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96 ">
+      <div className="flex justify-between items-center gap-5 min-h-[600px] text-white">
+        <div className="flex p-3 border-4 rounded-lg border-white w-full h-96 ">
           <div className="flex  justify-center items-center p-5">
             <img
               src={profile}
@@ -28,9 +28,9 @@ const AboutMe = () => {
               alt=""
             />
           </div>
-          <div className="flex  p-5">test</div>
+          <div>Test</div>
         </div>
-        <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96">
+        <div className="flex p-3 border-4 rounded-lg border-white w-full h-96">
           Test
         </div>
       </div>

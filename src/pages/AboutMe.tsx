@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import profile from "../images/S__10960911.jpg";
-import NavigateBackButton from "../components/button/Button";
+import NavigateBackButton from "../components/button/BackButton";
 
 const AboutMe = () => {
   const navigate = useNavigate();

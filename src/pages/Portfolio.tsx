@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import NavigateBackButton from "../components/button/Button";
+import NavigateBackButton from "../components/button/BackButton";
 
 const Portfolio = () => {
   const navigate = useNavigate();

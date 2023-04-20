@@ -19,16 +19,16 @@ const AboutMe = () => {
           Portfolio
         </button>
       </div>
-      <div className="flex justify-between items-center min-h-[600px] p-32 text-white">
+      <div className="flex justify-between items-center min-h-[600px] text-white">
         <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96 ">
-          <div className="flex w-full justify-center items-center p-5">
+          <div className="flex  justify-center items-center p-5">
             <img
               src={profile}
               className="flex border rounded-full h-64 w-64 object-cover"
               alt=""
             />
           </div>
-          <div className="flex w-full p-5">test</div>
+          <div className="flex  p-5">test</div>
         </div>
         <div className="flex p-3 border-4 rounded-lg border-white w-[700px] h-96">
           Test

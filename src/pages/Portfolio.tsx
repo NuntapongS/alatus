@@ -4,10 +4,6 @@ import NavigateBackButton from "../components/button/Button";
 const Portfolio = () => {
   const navigate = useNavigate();
 
-  const onBack = () => {
-    navigate(-1);
-  };
-
   return (
     <div className="h-screen w-full bg-[url('https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg')] bg-cover">
       <div className="flex justify-between p-4">

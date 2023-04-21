@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import NavigateBackButton from "../components/button/BackButton";
+import NextButton from "../components/button/NextButton";
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -12,12 +13,12 @@ const Portfolio = () => {
             navigate("/about-me");
           }}
         />
-        <button
-          className="flex justify-center items-center bg-white text-text-next w-[184px] h-12 rounded-full border-4 border-border-next"
-          onClick={() => navigate("/home")}
-        >
-          Home
-        </button>
+        <NextButton
+          message={"Home"}
+          onClick={() => {
+            navigate("/Home");
+          }}
+        />
       </div>
     </div>
   );

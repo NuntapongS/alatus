@@ -20,20 +20,18 @@ const AboutMe = () => {
           }}
         />
       </div>
-      <div className="flex justify-between items-center gap-5 min-h-[600px] text-white">
-        <div className="flex p-3 border-4 rounded-lg border-white w-full h-96 ">
-          <div className="flex w-full  justify-center items-center p-5">
-            <img
-              src={profile}
-              className="flex border rounded-full h-full w-9/12 object-cover"
-              alt=""
-            />
-          </div>
-          <div className="w-full">Test</div>
+      <div className="flex justify-center text-3xl text-text-title font-bold pb-16">
+        About Me
+      </div>
+      <div className="flex min-h-max text-white">
+        <div className="flex w-full max-h-max justify-center items-center p-5">
+          <img
+            src={profile}
+            className="flex border-4 border-border-primary rounded-full h-96 w-96 object-cover"
+            alt=""
+          />
         </div>
-        <div className="flex p-3 border-4 rounded-lg border-white w-full h-96">
-          <div className="w-full">Test</div>
-        </div>
+        <div className="w-full p-3 text-white">Hello World</div>
       </div>
     </div>
   );

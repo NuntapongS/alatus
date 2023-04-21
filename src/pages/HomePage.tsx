@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import NextButton from "../components/button/NextButton";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -16,13 +17,12 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex justify-center w-full">
-        <button
-          className="flex justify-center items-center bg-white text-text-title w-[184px] h-12 rounded-full border-4 border-boarder-primary"
-          data-testid="about-me-button"
-          onClick={() => navigate("/about-me")}
-        >
-          About Me
-        </button>
+        <NextButton
+          message={"About Me"}
+          onClick={() => {
+            navigate("/about-me");
+          }}
+        />
       </div>
     </div>
   );

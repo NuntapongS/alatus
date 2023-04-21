@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import profile from "../images/S__10960911.jpg";
 import NavigateBackButton from "../components/button/BackButton";
+import NextButton from "../components/button/NextButton";
 
 const AboutMe = () => {
   const navigate = useNavigate();
@@ -9,22 +10,22 @@ const AboutMe = () => {
       <div className="flex justify-between p-4">
         <NavigateBackButton
           onClick={() => {
-            navigate(-1);
+            navigate("/home");
           }}
         />
-        <button
-          className="flex justify-center items-center bg-white text-text-next w-[184px] h-12 rounded-full border-4 border-boarder-next"
-          onClick={() => navigate("/portfolio")}
-        >
-          Portfolio
-        </button>
+        <NextButton
+          message={"Portfolio"}
+          onClick={() => {
+            navigate("/portfolio");
+          }}
+        />
       </div>
       <div className="flex justify-between items-center gap-5 min-h-[600px] text-white">
         <div className="flex p-3 border-4 rounded-lg border-white w-full h-96 ">
           <div className="flex w-full  justify-center items-center p-5">
             <img
               src={profile}
-              className="flex border rounded-full h-full w-full object-cover"
+              className="flex border rounded-full h-full w-9/12 object-cover"
               alt=""
             />
           </div>

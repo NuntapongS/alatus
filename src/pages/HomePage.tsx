@@ -18,9 +18,9 @@ const HomePage = () => {
       </div>
       <div className="flex justify-center w-full">
         <NextButton
-          message={"About Me"}
+          message={"My Profile"}
           onClick={() => {
-            navigate("/about-me");
+            navigate("/profile");
           }}
         />
       </div>

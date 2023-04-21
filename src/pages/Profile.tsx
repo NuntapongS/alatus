@@ -21,7 +21,7 @@ const AboutMe = () => {
         />
       </div>
       <div className="flex justify-center text-3xl text-text-title font-bold font-serif pb-16">
-        About Me
+        My Profile
       </div>
       <div className="flex min-h-max text-white">
         <div className="flex w-full max-h-max justify-center items-center p-5">

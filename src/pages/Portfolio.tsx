@@ -10,7 +10,7 @@ const Portfolio = () => {
       <div className="flex justify-between p-4">
         <NavigateBackButton
           onClick={() => {
-            navigate("/about-me");
+            navigate("/profile");
           }}
         />
         <NextButton

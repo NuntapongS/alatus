@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
-import AboutMe from "./pages/AboutMe";
 import HomePage from "./pages/HomePage";
 import Portfolio from "./pages/Portfolio";
+import Profile from "./pages/Profile";
 
 const route = createBrowserRouter([
   {
@@ -10,8 +10,8 @@ const route = createBrowserRouter([
     element: <HomePage />,
   },
   {
-    path: "/about-me",
-    element: <AboutMe />,
+    path: "/profile",
+    element: <Profile />,
   },
   {
     path: "/portfolio",

@@ -5,7 +5,7 @@ type navigateButtonProps = {
 const NavigateBackButton = (props: navigateButtonProps) => {
   return (
     <button
-      className="flex justify-center items-center bg-white text-text-back w-[184px] h-12 rounded-full border-4 border-boarder-back"
+      className="flex justify-center items-center bg-white text-text-back w-[184px] h-12 rounded-full border-4 border-border-back"
       onClick={props.onClick}
     >
       Back

@@ -12,7 +12,7 @@ module.exports = {
         button: {
           primary: "#E53A68",
         },
-        boarder: {
+        border: {
           primary: "#E53A68",
           back: "#BE6FCE",
           next: "#CD4548",

@@ -13,7 +13,7 @@ const Portfolio = () => {
           }}
         />
         <button
-          className="flex justify-center items-center bg-white text-text-next w-[184px] h-12 rounded-full border-4 border-boarder-next"
+          className="flex justify-center items-center bg-white text-text-next w-[184px] h-12 rounded-full border-4 border-border-next"
           onClick={() => navigate("/home")}
         >
           Home

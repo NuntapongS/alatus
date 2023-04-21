@@ -6,7 +6,7 @@ import NextButton from "../components/button/NextButton";
 const AboutMe = () => {
   const navigate = useNavigate();
   return (
-    <div className="h-screen w-full bg-[url('https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg')] bg-cover">
+    <div className="h-[1000px] w-full bg-[url('https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg')] bg-cover">
       <div className="flex justify-between p-4">
         <NavigateBackButton
           onClick={() => {
@@ -20,18 +20,18 @@ const AboutMe = () => {
           }}
         />
       </div>
-      <div className="flex justify-center text-3xl text-text-title font-bold font-serif pb-16">
+      <div className="flex justify-center text-4xl text-text-title font-bold font-serif py-16">
         My Profile
       </div>
-      <div className="flex min-h-max text-white">
-        <div className="flex w-full max-h-max justify-center items-center p-5">
+      <div className="flex min-h-max gap-5 text-white">
+        <div className="flex max-h-max w-full justify-center items-center">
           <img
             src={profile}
-            className="flex border-4 border-border-primary rounded-full h-96 w-96 object-cover"
+            className="flex border-4 border-border-primary rounded-full h-80 w-80 object-cover"
             alt=""
           />
         </div>
-        <div className="w-full p-3 font-serif text-white">Hello World</div>
+        <div className="w-full text-white ">Test</div>
       </div>
     </div>
   );

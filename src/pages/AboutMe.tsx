@@ -20,7 +20,7 @@ const AboutMe = () => {
           }}
         />
       </div>
-      <div className="flex justify-center text-3xl text-text-title font-bold pb-16">
+      <div className="flex justify-center text-3xl text-text-title font-bold font-serif pb-16">
         About Me
       </div>
       <div className="flex min-h-max text-white">
@@ -31,7 +31,7 @@ const AboutMe = () => {
             alt=""
           />
         </div>
-        <div className="w-full p-3 text-white">Hello World</div>
+        <div className="w-full p-3 font-serif text-white">Hello World</div>
       </div>
     </div>
   );

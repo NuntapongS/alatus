@@ -21,15 +21,17 @@ const AboutMe = () => {
         />
       </div>
 
-      <div className="flex min-h-max gap-5 text-white pt-24">
+      <div className="flex min-h-max gap-5 text-white pt-32">
         <div className="flex max-h-max w-full justify-center items-center">
           <img
             src={profile}
-            className="flex border-4 border-border-primary rounded-full h-80 w-80 object-cover"
+            className="flex border-4 border-border-primary rounded-full h-96 w-96 object-cover"
             alt=""
           />
         </div>
-        <div className="w-full text-white ">Test</div>
+        <div className="w-full">
+          <div className="font-bold text-text-title text-3xl">My Profile</div>
+        </div>
       </div>
     </div>
   );

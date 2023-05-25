@@ -29,8 +29,13 @@ const AboutMe = () => {
             alt=""
           />
         </div>
-        <div className="w-full">
-          <div className="font-bold text-text-title text-3xl">My Profile</div>
+        <div className="w-full font-serif font-bold">
+          <div className="text-xl">Hello World !</div>
+          <div className="text-text-title text-4xl pb-10">
+            Welcome To My Profile
+            <span className="blink font-bold">|</span>
+          </div>
+          <div>Name</div>
         </div>
       </div>
     </div>

@@ -35,7 +35,9 @@ const AboutMe = () => {
             Welcome To My Profile
             <span className="blink font-bold">|</span>
           </div>
-          <div>Name</div>
+          <div>
+            Name: Nuntapong (Pat) Siripanyawong | นันทพงศ์ (ภัทร์) ศิริปัญญาวงศ์
+          </div>
         </div>
       </div>
     </div>

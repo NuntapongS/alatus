@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         text: {
           title: "#E53A68",
+          subTitle: "#F05079",
         },
         button: {
           primary: "#E53A68",

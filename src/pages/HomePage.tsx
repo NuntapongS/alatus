@@ -12,7 +12,7 @@ const HomePage = () => {
             <span className="blink font-bold">|</span>
           </div>
         </div>
-        <div className="flex justify-center text-xl text-text-title font-mono tracking-[6px] font-semibold pb-10">
+        <div className="flex justify-center text-xl text-text-subTitle font-mono tracking-[6px] font-semibold pb-10">
           Welcome To My Page
         </div>
       </div>

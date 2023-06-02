@@ -21,7 +21,7 @@ const AboutMe = () => {
         />
       </div>
 
-      <div className="flex min-h-max gap-5 text-white pt-32">
+      <div className="flex min-h-max gap-5 text-white pt-40">
         <div className="flex max-h-max w-full justify-center items-center">
           <img
             src={profile}
@@ -36,7 +36,17 @@ const AboutMe = () => {
             <span className="blink font-bold">|</span>
           </div>
           <div>
-            Name: Nuntapong (Pat) Siripanyawong | นันทพงศ์ (ภัทร์) ศิริปัญญาวงศ์
+            <div className="py-1">
+              Name: Nuntapong (Pat) Siripanyawong | นันทพงศ์ (ภัทร์)
+              ศิริปัญญาวงศ์
+            </div>
+            <div className="py-1">
+              Job: I am developer at ODDS| Team LeSSExample
+            </div>
+            <div className="py-1">Age: 1998 - Present</div>
+            <div className="py-1">
+              Interview: I believe that making software has to be fun.
+            </div>
           </div>
         </div>
       </div>

@@ -45,7 +45,8 @@ const AboutMe = () => {
             </div>
             <div className="py-1">Age: 1998 - Present</div>
             <div className="py-1">
-              Interview: I believe that making software has to be fun.
+              Interview: I believe that making software has to be fun and always
+              self-improvement
             </div>
           </div>
         </div>

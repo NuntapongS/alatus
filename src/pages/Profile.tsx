@@ -38,6 +38,10 @@ const AboutMe = () => {
           </div>
           <div>
             <div className="py-1">
+              Interview: I believe that making software has to be fun and always
+              self-improvement
+            </div>
+            <div className="py-1">
               Name: Nuntapong (Pat) Siripanyawong | นันทพงศ์ (ภัทร์)
               ศิริปัญญาวงศ์
             </div>
@@ -45,10 +49,6 @@ const AboutMe = () => {
               Job: I am developer at ODDS| Team LeSSExample
             </div>
             <div className="py-1">Age: 1998 - Present</div>
-            <div className="py-1">
-              Interview: I believe that making software has to be fun and always
-              self-improvement
-            </div>
           </div>
           <div className="flex py-10">
             <FacebookSvg />

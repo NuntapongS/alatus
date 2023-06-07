@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import profile from "../images/S__10960911.jpg";
 import NavigateBackButton from "../components/button/BackButton";
 import NextButton from "../components/button/NextButton";
+import FacebookSvg from "../svg/facebook";
 
 const AboutMe = () => {
   const navigate = useNavigate();
@@ -48,6 +49,9 @@ const AboutMe = () => {
               Interview: I believe that making software has to be fun and always
               self-improvement
             </div>
+          </div>
+          <div className="flex py-10">
+            <FacebookSvg />
           </div>
         </div>
       </div>

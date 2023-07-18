@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+    alatus:
+        container_name: alatus
+        ports:
+            - '3000:3000'
+        image: 'alatus:1.0.0'

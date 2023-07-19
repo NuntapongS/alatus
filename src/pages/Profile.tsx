@@ -51,9 +51,25 @@ const Profile = () => {
             <div className="py-1">Age: 1998 - Present</div>
           </div>
           <div className="flex py-10">
-            <a href="https://www.facebook.com/bloodzlu5t/">
-              <FacebookSvg />
-            </a>
+            <div className="mx-10">
+              <a
+                href="https://www.facebook.com/bloodzlu5t/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-facebook fa-2xl"></i>
+              </a>
+            </div>
+
+            <div className="mx-10">
+              <a
+                href="https://github.com/NuntapongS"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-github fa-2xl"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

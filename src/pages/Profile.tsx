@@ -4,7 +4,7 @@ import NavigateBackButton from "../components/button/BackButton";
 import NextButton from "../components/button/NextButton";
 import FacebookSvg from "../svg/facebook";
 
-const AboutMe = () => {
+const Profile = () => {
   const navigate = useNavigate();
   return (
     <div className="h-screen w-full bg-[url('https://i.ytimg.com/vi/9sNQFJAb3Ss/maxresdefault.jpg')] bg-cover">
@@ -61,4 +61,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default Profile;

@@ -51,7 +51,9 @@ const AboutMe = () => {
             <div className="py-1">Age: 1998 - Present</div>
           </div>
           <div className="flex py-10">
-            <FacebookSvg />
+            <a href="https://www.facebook.com/bloodzlu5t/">
+              <FacebookSvg />
+            </a>
           </div>
         </div>
       </div>

@@ -2,7 +2,6 @@ import { useNavigate } from "react-router-dom";
 import profile from "../images/S__10960911.jpg";
 import NavigateBackButton from "../components/button/BackButton";
 import NextButton from "../components/button/NextButton";
-import FacebookSvg from "../svg/facebook";
 
 const Profile = () => {
   const navigate = useNavigate();

@@ -3,10 +3,10 @@ type nextButtonProps = {
   onClick: () => void;
 };
 
-const NextButton = (props: nextButtonProps) => {
+const NextButton = ({ message, onClick }: nextButtonProps) => {
   return (
-    <button className={styleNextButton()} onClick={props.onClick}>
-      {props.message}
+    <button className={styleNextButton()} onClick={onClick}>
+      {message}
     </button>
   );
 };

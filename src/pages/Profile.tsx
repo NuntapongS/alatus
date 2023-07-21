@@ -69,6 +69,16 @@ const Profile = () => {
                 <i className="fa-brands fa-github fa-2xl"></i>
               </a>
             </div>
+
+            <div className="mx-10">
+              <a
+                href="https://www.instagram.com/nuntapong.sr/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa-brands fa-instagram fa-2xl"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>

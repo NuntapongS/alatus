@@ -49,6 +49,7 @@ const Profile = () => {
             </div>
             <div className="py-1">Age: 1998 - Present</div>
           </div>
+          <div className="mt-8 text-xl text-text-title">Social Media</div>
           <div className="flex py-10">
             <div className="mx-10">
               <a

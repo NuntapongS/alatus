@@ -3,7 +3,7 @@ import HomePage from "../../pages/HomePage";
 import { MemoryRouter } from "react-router-dom";
 
 describe("HomePgae", () => {
-  test("should render HomePage", () => {
+  test("user should see text welcome to my page", () => {
     render(
       <MemoryRouter>
         <HomePage />
@@ -13,7 +13,7 @@ describe("HomePgae", () => {
     expect(welcometext).toBeInTheDocument();
   });
 
-  test("should render name in homepage", () => {
+  test("user should see text my name", () => {
     render(
       <MemoryRouter>
         <HomePage />
@@ -23,7 +23,7 @@ describe("HomePgae", () => {
     expect(nameText).toBeInTheDocument();
   });
 
-  test("should render blink in homepage", () => {
+  test("user should see blink after my name text", () => {
     render(
       <MemoryRouter>
         <HomePage />
@@ -33,7 +33,7 @@ describe("HomePgae", () => {
     expect(blink).toBeInTheDocument();
   });
 
-  test("should render button in homepage", () => {
+  test("user should see button have text my profile", () => {
     render(
       <MemoryRouter>
         <HomePage />

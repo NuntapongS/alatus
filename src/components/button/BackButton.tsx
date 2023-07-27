@@ -2,9 +2,9 @@ type navigateButtonProps = {
   onClick: () => void;
 };
 
-const NavigateBackButton = (props: navigateButtonProps) => {
+const NavigateBackButton = ({ onClick }: navigateButtonProps) => {
   return (
-    <button className={styleBackButton()} onClick={props.onClick}>
+    <button className={styleBackButton()} onClick={onClick}>
       Back
     </button>
   );

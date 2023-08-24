@@ -17,7 +17,7 @@ pipeline {
         }
         stage ('Unit Test') {
             steps {
-                sh 'TZ=Asia/Bangkok yarn test'
+                sh 'TZ=Asia/Bangkok npm test'
             }
         }
     }

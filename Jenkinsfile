@@ -1,5 +1,5 @@
 pipeline {
-    agent { label "Alatus" }
+    agent any
     stages {
         stage ('Get Commit Detail') {
             steps {

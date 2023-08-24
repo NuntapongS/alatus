@@ -12,7 +12,7 @@ pipeline {
         }
         stage ('Install Dependencies') {
             steps {
-                sh 'yarn install'
+                sh 'npm install'
             }
         }
         stage ('Unit Test') {

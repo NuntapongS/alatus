@@ -10,5 +10,15 @@ pipeline {
                 }
             }
         }
+        stage ('Install Dependencies') {
+            steps {
+                sh 'yarn install'
+            }
+        }
+        stage ('Unit Test') {
+            steps {
+                sh 'TZ=Asia/Bangkok yarn test'
+            }
+        }
     }
 }

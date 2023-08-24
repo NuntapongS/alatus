@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    tools {
+        nodejs 'node18.14.1'
+    }
     stages {
         stage ('Get Commit Detail') {
             steps {

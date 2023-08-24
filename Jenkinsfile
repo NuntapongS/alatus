@@ -12,6 +12,8 @@ pipeline {
         }
         stage ('Install Dependencies') {
             steps {
+                echo 'Install Dependencies'
+                nodejs('node')
                 sh 'yarn install'
             }
         }

@@ -12,12 +12,12 @@ pipeline {
         }
         stage ('Install Dependencies') {
             steps {
-                sh 'npm install'
+                sh 'yarn install'
             }
         }
         stage ('Unit Test') {
             steps {
-                sh 'TZ=Asia/Bangkok npm test'
+                sh 'TZ=Asia/Bangkok yarn test'
             }
         }
     }

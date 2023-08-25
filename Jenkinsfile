@@ -1,10 +1,4 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:18.14.1'
-            args '-u root'
-        }
-    }
     stages {
         stage ('Get Commit Detail') {
             steps {
@@ -15,16 +9,17 @@ pipeline {
                 }
             }
         }
-        stage ('Install Dependencies') {
+        stage ('Build') {
             steps {
-                echo 'Install Dependencies'
-                nodejs('node')
+                echo 'building states'
+                sh 'node -v'
                 sh 'yarn install'
             }
         }
         stage ('Unit Test') {
             steps {
-                sh 'TZ=Asia/Bangkok yarn test'
+                echo 'running unit tests'
+                sh 'yarn test'
             }
         }
     }

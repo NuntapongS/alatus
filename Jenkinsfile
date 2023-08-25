@@ -1,5 +1,10 @@
 pipeline {
-    agent any
+    agent {
+        docker {
+            image 'node:12.16.1'
+            args '-u root'
+        }
+    }
     stages {
         stage ('Get Commit Detail') {
             steps {

@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'node:12.16.1'
+            image 'node:18.14.1'
             args '-u root'
         }
     }

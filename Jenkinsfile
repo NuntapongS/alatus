@@ -1,5 +1,8 @@
 pipeline {
     agent any
+    environment {
+        NODE_VERSION = '18.14.1'
+    }
     stages {
         stage ('Get Commit Detail') {
             steps {
@@ -13,7 +16,7 @@ pipeline {
         stage ('Build') {
             steps {
                 echo 'building states'
-                nodejs('Node-18.14.1') {
+                nodejs(NODE_VERSION) {
                     sh 'yarn install'
                 }
             }
@@ -21,7 +24,7 @@ pipeline {
         stage ('Unit Test') {
             steps {
                 echo 'running unit tests'
-                nodejs('Node-18.14.1') {
+                nodejs(NODE_VERSION) {
                     sh 'yarn test'
                 }
             }

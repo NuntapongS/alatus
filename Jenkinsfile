@@ -21,7 +21,9 @@ pipeline {
         stage ('Unit Test') {
             steps {
                 echo 'running unit tests'
-                sh 'yarn test'
+                nodejs('Node-18.14.1') {
+                    sh 'yarn test'
+                }
             }
         }
     }

@@ -13,8 +13,9 @@ pipeline {
         stage ('Build') {
             steps {
                 echo 'building states'
-                sh 'node -v'
-                sh 'yarn install'
+                nodejs('Node-18.14.1') {
+                    sh 'yarn install'
+                }
             }
         }
         stage ('Unit Test') {

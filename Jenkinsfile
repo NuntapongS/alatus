@@ -16,17 +16,15 @@ pipeline {
         stage ('Build') {
             steps {
                 echo 'building states'
-                nodejs(NODE_VERSION) {
-                    sh 'yarn install'
-                }
+                sh 'yarn install'
+                
             }
         }
         stage ('Unit Test') {
             steps {
                 echo 'running unit tests'
-                nodejs(NODE_VERSION) {
-                    sh 'yarn test'
-                }
+                sh 'yarn test'
+                
             }
         }
     }

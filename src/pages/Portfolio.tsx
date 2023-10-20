@@ -31,8 +31,17 @@ const Portfolio = () => {
         <div className="w-full font-serif font-bold">
           <div>
             <div className="text-2xl text-text-title">Portfolio</div>
-            <div className="my-10">
+            <div className="flex items-center gap-4 my-10">
               <i className="fa-solid fa-file-lines fa-2xl"></i>
+              <div className="text-2xl text-text-title">Test</div>
+            </div>
+            <div className="flex items-center gap-4 my-10">
+              <i className="fa-solid fa-file-lines fa-2xl"></i>
+              <div className="text-2xl text-text-title">Test</div>
+            </div>
+            <div className="flex items-center gap-4 my-10">
+              <i className="fa-solid fa-file-lines fa-2xl"></i>
+              <div className="text-2xl text-text-title">Test</div>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ const HomePage = () => {
           </div>
         </div>
         <div className="flex justify-center text-xl text-text-subTitle font-mono tracking-[6px] font-semibold pb-10">
-          Welcome To My Pagex
+          Welcome To My Page
         </div>
       </div>
       <div className="flex justify-center w-full">

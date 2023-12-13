@@ -1,12 +1,7 @@
 pipeline {
-    // agent any
-    // environment {
-    //     NODE_VERSION = 'Node-18.14.1'
-    // }
-    agent {
-        docker {
-            image 'node:18.14.1'
-        }
+    agent any
+    environment {
+        NODE_VERSION = 'Node-18.14.1'
     }
     stages {
         stage ('Get Commit Detail') {

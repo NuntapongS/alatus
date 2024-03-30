@@ -31,7 +31,7 @@ const Portfolio = () => {
         </div>
         <div className="w-full font-serif font-bold">
           <div>
-            <div className="text-2xl text-text-title">Portfolio</div>
+            <div className="text-2xl text-text-title">My Portfolio</div>
             <div className="flex items-center gap-4 my-10">
               <i className="fa-solid fa-file-lines fa-2xl"></i>
               <div className="text-2xl text-text-title">Test</div>

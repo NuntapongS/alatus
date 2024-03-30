@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import NavigateBackButton from "../components/button/BackButton";
 import NextButton from "../components/button/NextButton";
+import profile from "../images/S__10960912.jpg";
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -23,7 +24,7 @@ const Portfolio = () => {
       <div className="flex min-h-max gap-5 text-white pt-40">
         <div className="flex max-h-max w-full justify-center items-center">
           <img
-            // src={profile}
+            src={profile}
             className="flex border-4 border-border-primary rounded-full h-96 w-96 object-cover"
             alt=""
           />

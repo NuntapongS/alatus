@@ -45,7 +45,7 @@ const Profile = () => {
               ศิริปัญญาวงศ์
             </div>
             <div className="py-1">
-              Job: I am developer at ODDS| Team LeSSExample
+              Job: I am product developer at ODDS| Team LeSSExample
             </div>
             <div className="py-1">Age: 1998 - Present</div>
           </div>

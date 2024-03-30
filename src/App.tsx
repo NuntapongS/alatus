@@ -5,8 +5,8 @@ import {
 } from "react-router-dom";
 import "./App.css";
 import HomePage from "./pages/HomePage";
-import Portfolio from "./pages/Portfolio";
-import Profile from "./pages/Profile";
+import Portfolio from "./pages/PortfolioPage";
+import Profile from "./pages/ProfilePage";
 
 const route = createBrowserRouter([
   {

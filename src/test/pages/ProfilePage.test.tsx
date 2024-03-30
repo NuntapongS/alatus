@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Profile from "../../pages/Profile";
+import Profile from "../../pages/ProfilePage";
 import { MemoryRouter } from "react-router-dom";
 
 describe("Profile", () => {
